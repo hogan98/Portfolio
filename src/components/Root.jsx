@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import App from "./App";
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
@@ -21,6 +22,7 @@ export default function Root() {
           </Routes>
         </div>
       </div>
+      <Footer />
     </Router>
   );
 }
