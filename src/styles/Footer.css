@@ -1,0 +1,27 @@
+/* footer */
+.footer ul {
+  display: flex;
+  justify-content: center; /* Center the items horizontally within the footer */
+  align-items: center; /* Center the items vertically within the footer */
+  padding: 20px;
+}
+
+.footer-container {
+  position: fixed;
+  margin: auto;
+  padding: 1%;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--main-colour);
+  text-align: center;
+  z-index: 1;
+}
+
+.footer-container a {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.footer-item {
+  margin: 20px;
+}

@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+  /* --main-colour: #4654ee; */
+  --main-colour: #1320ad;
+  --footer-colour: #0d156f;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+}
